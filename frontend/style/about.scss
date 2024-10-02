@@ -1,0 +1,101 @@
+.about-us {
+    padding: 32px 0;
+    background-color: #EEE3EC;
+
+    p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .title-about-us {
+        margin-bottom: 32px;
+
+        h1 {
+            color: #356E9A;
+            font-size: 48px;
+            line-height: 54px;
+        }
+    }
+
+    .about-img {
+        img {
+            margin: auto;
+            width: 50%;
+        }
+    }
+}
+
+.certified {
+    padding: 32px 0;
+
+    h2 {
+        color: #356E9A;
+
+    }
+
+    .badge-img {
+        width: 100%;
+    }
+
+    .logo-tsi-kan {
+        margin-top: 32px;
+
+        img {
+            width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+.products {
+    padding: 32px 0;
+
+    .title {
+        margin-bottom: 32px;
+
+        h2 {
+            color: #356E9A;
+        }
+    }
+
+    .button-tab-product {
+        margin-bottom: 32px;
+
+        .btn-tab {
+            border: 1px solid #EEE3EC;
+            background-color: #fff;
+            font-family: 'roboto';
+            font-size: 14px;
+
+            &:hover {
+                background-color: #356E9A;
+                color: #fff;
+            }
+        }
+
+        .active-btn {
+            background-color: #356E9A !important;
+            color: #fff !important;
+        }
+    }
+
+    .col-6.col-md-3 {
+        padding: 0;
+    }
+
+    .img-prod {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+#implement {
+    background-color: #EEE3EC;
+}
+
+.display-off {
+    display: none !important;
+}

@@ -1,0 +1,366 @@
+@charset "UTF-8";
+body {
+  font-family: "Playfair Display";
+  background-color: #f1f1f5;
+  margin-top: 70px;
+}
+
+p {
+  font-family: 'roboto';
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 10%;
+}
+
+nav .navbar-brand img {
+  width: 60px;
+}
+
+nav .navbar-nav .nav-item .nav-link {
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #356E9A;
+  font-size: 16px;
+}
+
+nav .navbar-nav .nav-item .nav-link:active {
+  font-weight: 600;
+}
+
+nav .navbar-nav .nav-item .nav-link:hover {
+  font-weight: 600;
+}
+
+.active {
+  font-weight: 600 !important;
+}
+
+.carousel-indicators {
+  z-index: 3;
+  margin-bottom: 2rem;
+  margin-right: 0%;
+  margin-left: 0%;
+  right: 0;
+  left: 0;
+}
+
+.carousel-indicators [data-bs-target] {
+  position: relative;
+  z-index: 3;
+  width: 68px;
+  height: 6px;
+  background-color: #6b6b6b;
+  opacity: 1;
+}
+
+.carousel-indicators [data-bs-target] span {
+  content: ’’;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 100%;
+  background: #ffffff;
+  border-radius: inherit;
+  opacity: 1 !important;
+}
+
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+.header-portofolio {
+  width: 100%;
+  height: calc(100vh - 70px);
+  color: #fff;
+}
+
+.header-portofolio .text-head {
+  height: calc(100vh);
+  padding: 2%;
+}
+
+.header-portofolio .text-wrap {
+  margin: auto;
+}
+
+.header-portofolio .text-wrap .title {
+  margin: auto;
+}
+
+.header-portofolio .text-wrap .title p {
+  font-family: "Inter";
+  margin-bottom: 5px;
+}
+
+.header-portofolio .text-wrap .title p span {
+  color: #00d85a;
+  font-weight: 600;
+}
+
+.header-portofolio .text-wrap .title h1 {
+  font-size: 64px;
+}
+
+.header-portofolio .text-wrap .btn-lets-talk {
+  border: none;
+  color: #181818;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #00d85a;
+  padding: 10px 20px;
+  margin-top: 24px;
+}
+
+.header-portofolio .text-wrap .btn-lets-talk:hover {
+  color: #fff;
+  -webkit-filter: drop-shadow(0px 0px 4px #00d85a);
+          filter: drop-shadow(0px 0px 4px #00d85a);
+}
+
+.header-portofolio .text-wrap .button-social-media {
+  margin-top: 100px;
+}
+
+.header-portofolio .text-wrap .button-social-media .btn-linked {
+  padding: 0;
+  border: none;
+  margin-left: -6px;
+}
+
+.header-portofolio .text-wrap .button-social-media .btn-linked img {
+  height: 40px;
+}
+
+.header-portofolio .text-wrap .button-social-media .download-cv-btn {
+  padding: 0;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header-portofolio .text-wrap .button-social-media .download-cv-btn span {
+  color: #00d85a;
+}
+
+.header-portofolio .img-profile {
+  width: 300px;
+  margin: auto;
+}
+
+.header-portofolio .img-profile .green-bg {
+  width: 200px;
+  height: 200px;
+  background-color: #00d85a;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -3;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+
+.header-portofolio .img-profile img {
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  width: 100%;
+}
+
+.line-title {
+  width: 0%;
+  opacity: 0;
+  border: 2px solid #00d85a;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.line-title-active {
+  width: 40% !important;
+  opacity: 1;
+}
+
+.profile {
+  padding: 32px 0;
+  background-color: #EEE3EC;
+}
+
+.profile .img-profile img {
+  margin: auto;
+  width: 80%;
+}
+
+.profile .title-profile h2 {
+  font-size: 48px;
+  line-height: 54px;
+  color: #356E9A;
+}
+
+.about-me {
+  z-index: 3;
+  padding: 48px;
+  background-color: #2c2c2c;
+}
+
+.about-me h2 {
+  color: #fff;
+}
+
+.about-me .about-content {
+  margin-top: 24px;
+}
+
+.about-me .about-content p {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 20px;
+}
+
+.skill {
+  padding: 48px;
+}
+
+.skill h2 {
+  color: #fff;
+}
+
+.skill .images-skill {
+  margin-top: 24px;
+}
+
+.skill .images-skill .image-content {
+  width: 150px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.skill .images-skill .image-content img {
+  width: 100%;
+}
+
+.skill .images-skill .image-content:hover {
+  -webkit-filter: drop-shadow(0px 0px 7px #00d85a);
+          filter: drop-shadow(0px 0px 7px #00d85a);
+}
+
+.portofolio {
+  padding: 32px;
+}
+
+.portofolio h2 {
+  color: #356E9A;
+  font-size: 42px;
+}
+
+.portofolio .card-portofolio {
+  margin-top: 32px;
+  border-radius: 0;
+  border: none;
+  min-height: 500px;
+}
+
+.portofolio .card-portofolio a {
+  text-decoration: none;
+}
+
+.portofolio .card-portofolio:hover {
+  -webkit-filter: drop-shadow(0px 0px 7px #EEE3EC);
+          filter: drop-shadow(0px 0px 7px #EEE3EC);
+}
+
+.portofolio .card-portofolio .image-cover-port {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 239px;
+}
+
+.portofolio .card-portofolio .title {
+  margin-top: 18px;
+  padding: 20px;
+}
+
+.portofolio .card-portofolio .title h1 {
+  font-size: 22px;
+  color: #356E9A;
+}
+
+.portofolio .card-portofolio .title p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.portofolio .card-portofolio .title .btn-visit {
+  margin-top: 24px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #00d85a;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.portofolio .card-portofolio .btn-view-more {
+  margin: 20px;
+  font-family: 'roboto';
+  border: none;
+  background-color: #356E9A;
+  color: #fff;
+}
+
+.contact {
+  padding: 48px;
+  background-color: #2c2c2c;
+}
+
+.contact h2 {
+  color: #fff;
+}
+
+.contact .contact-content {
+  margin-top: 24px;
+  color: #fff;
+}
+
+.contact .contact-content a {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact .contact-content a:hover {
+  color: #00d85a;
+}
+
+.contact-us {
+  padding: 100px 0px;
+}
+
+.contact-us .card-contact {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+footer {
+  background-color: #356E9A;
+  padding: 10px 0px;
+  color: #fff;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'roboto';
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+footer .section-footer .logo {
+  width: 30%;
+}
+/*# sourceMappingURL=portofolio.css.map */

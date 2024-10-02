@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/style/portofolio.css">
+    <link rel="stylesheet" href="frontend/style/about.css">
+    <link rel="stylesheet" href="frontend/style/portofolio-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/slick/slick.css" />
+    <link rel="stylesheet" href="frontend/libraries/slick/slick-theme.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class=" container">
+            <a class="navbar-brand" href="index.html">
+                <img src="frontend/images/logo-black.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-list"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" role="button" href="about-us.html">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="product.html">PRODUCT</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">SUSTAINABILITY</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact-us.html">CONTACT US</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header>
+        <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators header-indicator">
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                    <span></span>
+                </button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Slide 2">
+                    <span></span>
+                </button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Slide 3">
+                    <span></span>
+                </button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="header-portofolio" style="background-image: url(frontend/images/h3.jpg); background-size: cover; background-position: center;">
+                        <div class="container ">
+                            <div class="row text-head">
+                                <div class="col-sm-12 text-wrap" style="position: relative;">
+                                    <div class="title">
+                                        <h1>Moveree</h1>
+                                        <p>Display & Promotion supplier</p>
+                                    </div>
+                                    <!-- <div class="btn btn-lets-talk">
+                            Get Started
+                        </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="header-portofolio" style="background-image: url(frontend/images/h1.jpg); background-size: cover; background-position: center;">
+                        <div class="container ">
+                            <div class="row text-head">
+                                <div class="col-sm-12 text-wrap" style="position: relative;">
+                                    <div class="title">
+                                        <h1>Moveree</h1>
+                                        <p>Display & Promotion supplier</p>
+                                    </div>
+                                    <!-- <div class="btn btn-lets-talk">
+                            Get Started
+                        </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="header-portofolio" style="background-image: url(frontend/images/h2.jpg); background-size: cover; background-position: center;">
+                        <div class="container ">
+                            <div class="row text-head">
+                                <div class="col-sm-12 text-wrap" style="position: relative;">
+                                    <div class="title">
+                                        <h1>Moveree</h1>
+                                        <p>Display & Promotion supplier</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- profile -->
+        <section class="profile">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="img-profile d-flex flex-column" data-aos="zoom-in" data-aos-duration="200">
+                            <img src="frontend/images/profile1.jpg" alt="profile img">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="title-profile" data-aos="fade-left" data-aos-duration="1000">
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae doloremque nulla laborum quis fugit sit Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- our details -->
+        <div data-aos="fade-up" class="portofolio">
+            <div class="container">
+                <h2 class="text-center">
+                    Our Details
+                </h2>
+                <p class="text-center">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea facere magnam illo
+                </p>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-md-4 ">
+                        <div class="card card-portofolio" data-aos="zoom-in" data-aos-duration="500">
+                            <div class="image-cover-port" style="background-image: url(frontend/images/header2.jpg);">
+                            </div>
+                            <div class="title">
+                                <h1>Our Profile</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta autem sapiente fuga a ea deserunt ullam pariatur quas,</p>
+                                <a href="https://connx.id/" target="https://connx.id/">
+                                    <!-- <div class="btn btn-visit d-grid gap-2">
+                                        Visit website
+                                    </div> -->
+                                </a>
+                            </div>
+                            <a href="about-us.html" class="btn btn-view-more mt-auto">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card card-portofolio" data-aos="zoom-in" data-aos-duration="1000">
+                            <div class="image-cover-port" style="background-image: url(frontend/images/profile2.jpg);">
+                            </div>
+                            <div class="title">
+                                <h1>Our Product</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nostrum cum porro culpa voluptate quas
+                                </p>
+                            </div>
+                            <a href="product.html" class="btn btn-view-more mt-auto">
+                                View More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <div class="card card-portofolio" data-aos="zoom-in" data-aos-duration="1500">
+                            <div class="image-cover-port" style="background-image: url(frontend/images/header.jpg);">
+                            </div>
+                            <div class="title">
+                                <h1>Our Implementation</h1>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nostrum cum porro culpa voluptate quas
+                                </p>
+                            </div>
+                            <div class="btn btn-view-more mt-auto">
+                                View More
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <section class="section-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 mt-2">
+                        <img src="frontend/images/logo-white.png" alt="logo" class="logo">
+                    </div>
+
+                    <div class="col-sm-6 col-md-2 mt-2">
+                        <p class="bold"><strong>ABOUT US</strong></p>
+                        <a href="#">About Us</a><br />
+                        <a href="#">Certified Company</a><br />
+                    </div>
+                    <div class="col-sm-6 col-md-2 mt-2">
+                        <p><strong>CONTACT US </strong> </p>
+                        <!-- <a href="#"> 021-6601406 </a><br /> -->
+                        <a href="#">Moveree@gmail.com </a><br />
+                    </div>
+                    <div class="col-md-4 mt-2">
+                        <div class="support" style=" margin-top: 20px;">
+                            <p>
+                                Jl. Kehidupan, Blok A, Kebayoran Lama, Jakarta Selatan
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <p class="text-center mt-4">
+                            ©2024 Moveree. All rights reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="frontend/js/jquery-3.6.0.min.js "></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="frontend/libraries/slick/slick.min.js"></script>
+    <script src="frontend/script/sliderEffect.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        const myCarousel = document.getElementById("carouselHeader");
+        const carouselIndicators = myCarousel.querySelectorAll(".carousel-indicators button span");
+        let intervalID;
+        const carousel = new bootstrap.Carousel(myCarousel);
+
+        window.addEventListener("load", function() {
+            fillCarouselIndicator(1);
+        });
+
+        myCarousel.addEventListener("slide.bs.carousel", function(e) {
+            let index = e.to;
+            fillCarouselIndicator(++index);
+        });
+
+        function fillCarouselIndicator(index) {
+            let i = 0;
+            for (const carouselIndicator of carouselIndicators) {
+                carouselIndicator.style.width = 0;
+            }
+            clearInterval(intervalID);
+            carousel.pause();
+
+            intervalID = setInterval(function() {
+                i++;
+
+                myCarousel.querySelector(".carousel-indicators .active span").style.width =
+                    i + "%";
+
+                if (i >= 100) {
+                    // i = 0; -> just in case
+                    carousel.next();
+                }
+            }, 50);
+        }
+    </script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <script>
+        const links = document.querySelectorAll('.nav-link');
+
+        if (links.length) {
+            links.forEach((link) => {
+                link.addEventListener('click', (e) => {
+                    links.forEach((link) => {
+                        link.classList.remove('active');
+                    });
+                    e.preventDefault();
+                    link.classList.add('active');
+                });
+            });
+        }
+    </script> -->
+</body>
+
+</html>

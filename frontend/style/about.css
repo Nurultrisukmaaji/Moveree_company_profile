@@ -1,0 +1,98 @@
+.about-us {
+  padding: 32px 0;
+  background-color: #EEE3EC;
+}
+
+.about-us p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about-us .title-about-us {
+  margin-bottom: 32px;
+}
+
+.about-us .title-about-us h1 {
+  color: #356E9A;
+  font-size: 48px;
+  line-height: 54px;
+}
+
+.about-us .about-img img {
+  margin: auto;
+  width: 50%;
+}
+
+.certified {
+  padding: 32px 0;
+}
+
+.certified h2 {
+  color: #356E9A;
+}
+
+.certified .badge-img {
+  width: 100%;
+}
+
+.certified .logo-tsi-kan {
+  margin-top: 32px;
+}
+
+.certified .logo-tsi-kan img {
+  width: 100%;
+  margin: auto;
+}
+
+.products {
+  padding: 32px 0;
+}
+
+.products .title {
+  margin-bottom: 32px;
+}
+
+.products .title h2 {
+  color: #356E9A;
+}
+
+.products .button-tab-product {
+  margin-bottom: 32px;
+}
+
+.products .button-tab-product .btn-tab {
+  border: 1px solid #EEE3EC;
+  background-color: #fff;
+  font-family: 'roboto';
+  font-size: 14px;
+}
+
+.products .button-tab-product .btn-tab:hover {
+  background-color: #356E9A;
+  color: #fff;
+}
+
+.products .button-tab-product .active-btn {
+  background-color: #356E9A !important;
+  color: #fff !important;
+}
+
+.products .col-6.col-md-3 {
+  padding: 0;
+}
+
+.products .img-prod {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+#implement {
+  background-color: #EEE3EC;
+}
+
+.display-off {
+  display: none !important;
+}
+/*# sourceMappingURL=about.css.map */
